@@ -125,6 +125,10 @@ playwright install-deps chromium
 Create a `.env` file in the root directory by copying the template below:
 
 ```ini
+# Telegram Configuration (Replace with your actual bot credentials)
+TELEGRAM_BOT_TOKEN="your_telegram_bot_token_here"
+TELEGRAM_CHAT_ID="your_telegram_chat_id_here"
+
 # Scraper Target
 TARGET_URL="https://www.facebook.com/groups/your_target_group_id/"
 
